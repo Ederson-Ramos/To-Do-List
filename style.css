@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gupter", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(231, 223, 212);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+}
+
+.container {
+    max-width: 340px;
+    width: 90%;
+}
+
+h1 {
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: default;
+}
+
+form {
+    background-color: rgb(128, 114, 94);
+    padding: 5px 13px 5px 13px;
+    border-radius: 30px;
+}
+
+.alinhamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 13px 0 13px;
+}
+
+button {
+    background-color: rgb(33, 26, 15);
+    color: #fff;
+    padding: 5px;
+    width: 30px;
+    border-radius: 14px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+form input {
+    background-color: rgb(128, 114, 94);
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+form input::placeholder {
+    color: #ffffffbc;
+    opacity: 1;
+    font-size: 14px;
+}
+
+form input::-webkit-input-placeholder {
+    color: #ffffffbc;
+    opacity: 1;
+    font-size: 14px;
+}
+
+form input::-moz-placeholder {
+    color: #ffffffbc;
+    opacity: 1;
+    font-size: 14px;
+}
+
+form input:-ms-input-placeholder {
+    color: #ffffffbc;
+    opacity: 1;
+    font-size: 14px;
+}
+
+form input:-moz-placeholder {
+    color: #ffffffbc;
+    opacity: 1;
+    font-size: 14px;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+li {
+    position: relative;
+    padding-bottom: 2px;
+    border-bottom: 1px solid gray;
+    font-size: 17px;
+    margin: 13px 0 13px 0;
+    display: none;
+}
+
+.divItens {
+    display: flex;
+    align-items: center;
+}
+
+ul li input {
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+input[type="checkbox"] { 
+    background-color: red; 
+    border-color: blue;
+}
+
+label {
+    cursor: pointer;
+}
+
+.deletar {
+    position: absolute;
+    right: 0;
+    color: red;
+    cursor: pointer;
+}
+
+textarea {
+    background-color: rgb(199, 189, 176);
+    color: #fff;
+    resize: none;
+    width: 100%;
+    height: 100px;
+    outline: none;
+    padding: 4px;
+    font-size: 15px;
+    box-shadow: 2px 2px 7px rgba(33, 26, 15, 0.538) inset;
+}
+
+textarea::placeholder {
+    color: #fff;
+    opacity: 1;
+    font-size: 15px;
+    padding: 0 2px;
+}
+
+textarea::-webkit-input-placeholder {
+    color: #fff;
+    opacity: 1;
+    font-size: 15px;
+    padding: 0 2px;
+}
+
+textarea::-moz-placeholder {
+    color: #fff;
+    opacity: 1;
+    font-size: 15px;
+    padding: 0 2px;
+}
+
+textarea:-ms-input-placeholder {
+    color: #fff;
+    opacity: 1;
+    font-size: 15px;
+    padding: 0 2px;
+}
+
+textarea:-moz-placeholder {
+    color: #fff;
+    opacity: 1;
+    font-size: 15px;
+    padding: 0 2px;
+}
+
+.mensagemErro {
+    background-color: rgb(195, 56, 56);
+    border: 2px rgb(91, 19, 19) solid;
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+    text-align: center;
+    display: none;
+}
+
+.mensagemTarefa {
+    background-color: rgb(195, 56, 56);
+    border: 2px rgb(91, 19, 19) solid;
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+    text-align: center;
+    display: none;
+}
+
+footer p {
+    cursor: default;
+}
