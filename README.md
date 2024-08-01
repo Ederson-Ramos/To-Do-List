@@ -12,3 +12,7 @@ Esse é um projeto simples sobre uma lista de tarefas onde você pode adicionar 
 ## Design
 
 ![Design do site.](https://i.ibb.co/zS7CNp4/To-Do-List-Interface.png)
+
+## Deploy
+
+[To Do List Site](https://to-do-list-theta-weld.vercel.app/)
