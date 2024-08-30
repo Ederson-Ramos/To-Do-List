@@ -12,7 +12,7 @@ $(document).ready(() => {
         e.preventDefault();
 
         const toDo = $('form input').val();
-        const tarefaFormatadaMin = toDo.toLowerCase();
+        const tarefaFormatadaMin = toDo.toLowerCase().trim();
 
         if (toDo == '') {
             mensagemErro.fadeIn();
@@ -35,7 +35,7 @@ $(document).ready(() => {
         const divItens = $('<div class="divItens"></div>');
         const checkBox = $(`<input type="checkbox" id="${toDo}">`);
         const label = $(`<label for="${toDo}">${itemMaiusculo(toDo)}</label>`);
-        const deletar = $('<span class="deletar">X</span>');
+        const deletar = $('<img src="images/red trash icon.png" alt="Icon de uma lixeira" class="lixeira">');
 
         itemDeLista.append(divItens);
         divItens.append(checkBox);

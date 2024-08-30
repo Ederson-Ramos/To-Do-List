@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-    max-width: 340px;
+    max-width: 420px;
     width: 90%;
 }
 
@@ -26,33 +26,32 @@ h1 {
     cursor: default;
 }
 
-form {
-    background-color: rgb(128, 114, 94);
-    padding: 5px 13px 5px 13px;
-    border-radius: 30px;
-}
-
 .alinhamento {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 form {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    background-color: rgb(128, 114, 94);
+    border-radius: 30px;
+    width: 350px;
+    padding: 8px 25px;
     align-items: center;
-    margin: 0 13px 0 13px;
+    margin: 0 auto 5px;
+    width: 80%;
 }
 
 button {
     background-color: rgb(33, 26, 15);
     color: #fff;
     padding: 5px;
-    width: 30px;
+    width: 35px;
+    height: 30px;
     border-radius: 14px;
     border: none;
-    font-size: 15px;
+    font-size: 19px;
     cursor: pointer;
 }
 
@@ -61,37 +60,38 @@ form input {
     border: none;
     outline: none;
     color: #fff;
-    font-size: 14px;
+    font-size: 17px;
+    width: 90%;
 }
 
 form input::placeholder {
     color: #ffffffbc;
     opacity: 1;
-    font-size: 14px;
+    font-size: 17px;
 }
 
 form input::-webkit-input-placeholder {
     color: #ffffffbc;
     opacity: 1;
-    font-size: 14px;
+    font-size: 17px;
 }
 
 form input::-moz-placeholder {
     color: #ffffffbc;
     opacity: 1;
-    font-size: 14px;
+    font-size: 17px;
 }
 
 form input:-ms-input-placeholder {
     color: #ffffffbc;
     opacity: 1;
-    font-size: 14px;
+    font-size: 17px;
 }
 
 form input:-moz-placeholder {
     color: #ffffffbc;
     opacity: 1;
-    font-size: 14px;
+    font-size: 17px;
 }
 
 ul {
@@ -127,11 +127,12 @@ label {
     cursor: pointer;
 }
 
-.deletar {
+.lixeira {
+    width: 17px;
     position: absolute;
     right: 0;
-    color: red;
     cursor: pointer;
+    padding-bottom: 3px;
 }
 
 textarea {
@@ -139,45 +140,45 @@ textarea {
     color: #fff;
     resize: none;
     width: 100%;
-    height: 100px;
+    height: 120px;
     outline: none;
     padding: 4px;
-    font-size: 15px;
+    font-size: 17px;
     box-shadow: 2px 2px 7px rgba(33, 26, 15, 0.538) inset;
 }
 
 textarea::placeholder {
     color: #fff;
     opacity: 1;
-    font-size: 15px;
+    font-size: 17px;
     padding: 0 2px;
 }
 
 textarea::-webkit-input-placeholder {
     color: #fff;
     opacity: 1;
-    font-size: 15px;
+    font-size: 17px;
     padding: 0 2px;
 }
 
 textarea::-moz-placeholder {
     color: #fff;
     opacity: 1;
-    font-size: 15px;
+    font-size: 17px;
     padding: 0 2px;
 }
 
 textarea:-ms-input-placeholder {
     color: #fff;
     opacity: 1;
-    font-size: 15px;
+    font-size: 17px;
     padding: 0 2px;
 }
 
 textarea:-moz-placeholder {
     color: #fff;
     opacity: 1;
-    font-size: 15px;
+    font-size: 17px;
     padding: 0 2px;
 }
 
@@ -206,3 +207,9 @@ textarea:-moz-placeholder {
 footer p {
     cursor: default;
 }
+
+footer span {
+    font-style: italic;
+    color: rgb(72, 72, 72);
+}
+
